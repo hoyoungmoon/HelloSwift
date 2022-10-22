@@ -25,4 +25,14 @@ class 비밀지도 {
             }.joined()
         }
     }
+
+    // 모범 답안 - 비트 연산, map, reduce 적절히 이용
+    static func bestSolution(_ n: Int, _ arr1: [Int], _ arr2: [Int]) -> [String] {
+        return (0..<n).map {
+            let bitwise = String(arr1[$0] | arr2[$0], radix: 2)
+            return (String(repeating: "0", count: n - bitwise.count) + bitwise).reduce("") {
+                return $0 + ($1 == "0" ? " " : "#")
+            }
+        }
+    }
 }
