@@ -17,12 +17,14 @@ class 다트게임 {
             letter.forEach {
                 let number = numbers[index]
                 switch $0 {
+                case "S":
+                    scores[index] = number
                 case "D":
                     scores[index] = number * number
                 case "T":
                     scores[index] = number * number * number
                 case "#":
-                    scores[index] = -number
+                    scores[index] = -scores[index]
                 case "*":
                     if index != 0 {
                         scores[index - 1] = 2 * scores[index - 1]
