@@ -8,7 +8,7 @@
 import Foundation
 
 class 다트게임 {
-    static ㅌfunc solution(_ dartResult: String) -> Int {
+    static func solution(_ dartResult: String) -> Int {
         let numbers = dartResult.split(whereSeparator: { !$0.isNumber }).compactMap { Int($0) }
         let letters = dartResult.split(whereSeparator: { $0.isNumber })
         var scores = Array(repeating: 0, count: numbers.count)
