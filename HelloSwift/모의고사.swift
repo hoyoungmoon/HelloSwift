@@ -39,4 +39,24 @@ class 모의고사 {
 
         return ans
     }
+
+    static func improvedSolution(_ answers: [Int]) -> [Int] {
+        // 패턴을 String이 아닌 배열로 하면 인덱스 표현이 편하다
+        let patterns = [
+            [1, 2, 3, 4, 5], [2, 1, 2, 3, 2, 4, 2, 5], [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
+        ]
+        // 딕셔너리로 하면 나중에 max 값 추출하기 편하다
+        var corrects: [Int: Int] = [1: 0, 2: 0, 3: 0]
+        for (i, answer) in answers.enumerated() {
+            for student in 0..<3 {
+                if patterns[student][i % patterns[student].count] == answer {
+                    corrects[student + 1]! += 1
+                }
+            }
+        }
+        return corrects.filter {
+            return $0.value == corrects.values.max()
+        }.map { $0.key }.sorted { $0 < $1 }
+    }
+
 }
