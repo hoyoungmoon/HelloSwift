@@ -17,6 +17,7 @@
 		04EC2808290AE4C6006886D6 /* 신규아이디추천.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2807290AE4C6006886D6 /* 신규아이디추천.swift */; };
 		04EC280A290C1252006886D6 /* 이상한문자만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2809290C1252006886D6 /* 이상한문자만들기.swift */; };
 		04EC280C290D5D44006886D6 /* 모의고사.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC280B290D5D44006886D6 /* 모의고사.swift */; };
+		04EC280E290EADF6006886D6 /* JadenCase문자열만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC280D290EADF6006886D6 /* JadenCase문자열만들기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		04EC2807290AE4C6006886D6 /* 신규아이디추천.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "신규아이디추천.swift"; sourceTree = "<group>"; };
 		04EC2809290C1252006886D6 /* 이상한문자만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이상한문자만들기.swift"; sourceTree = "<group>"; };
 		04EC280B290D5D44006886D6 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
+		04EC280D290EADF6006886D6 /* JadenCase문자열만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JadenCase문자열만들기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				04EC2807290AE4C6006886D6 /* 신규아이디추천.swift */,
 				04EC2809290C1252006886D6 /* 이상한문자만들기.swift */,
 				04EC280B290D5D44006886D6 /* 모의고사.swift */,
+				04EC280D290EADF6006886D6 /* JadenCase문자열만들기.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			files = (
 				04EC280429082DF1006886D6 /* 성격유형검사하기.swift in Sources */,
 				04EC28022906DE22006886D6 /* 다트게임.swift in Sources */,
+				04EC280E290EADF6006886D6 /* JadenCase문자열만들기.swift in Sources */,
 				04EC2808290AE4C6006886D6 /* 신규아이디추천.swift in Sources */,
 				04DCFFA72900570A00DCB316 /* main.swift in Sources */,
 				04DCFFB02901847D00DCB316 /* 비밀지도.swift in Sources */,
