@@ -18,6 +18,7 @@
 		04EC280A290C1252006886D6 /* 이상한문자만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC2809290C1252006886D6 /* 이상한문자만들기.swift */; };
 		04EC280C290D5D44006886D6 /* 모의고사.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC280B290D5D44006886D6 /* 모의고사.swift */; };
 		04EC280E290EADF6006886D6 /* JadenCase문자열만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC280D290EADF6006886D6 /* JadenCase문자열만들기.swift */; };
+		04EC281029100CE8006886D6 /* 튜플.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC280F29100CE8006886D6 /* 튜플.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		04EC2809290C1252006886D6 /* 이상한문자만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이상한문자만들기.swift"; sourceTree = "<group>"; };
 		04EC280B290D5D44006886D6 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
 		04EC280D290EADF6006886D6 /* JadenCase문자열만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JadenCase문자열만들기.swift"; sourceTree = "<group>"; };
+		04EC280F29100CE8006886D6 /* 튜플.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "튜플.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				04EC2809290C1252006886D6 /* 이상한문자만들기.swift */,
 				04EC280B290D5D44006886D6 /* 모의고사.swift */,
 				04EC280D290EADF6006886D6 /* JadenCase문자열만들기.swift */,
+				04EC280F29100CE8006886D6 /* 튜플.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				04EC280629098BC5006886D6 /* 숫자문자열과영단어.swift in Sources */,
 				04DCFFAE2901736300DCB316 /* 문자열다루기기본.swift in Sources */,
 				04DCFFB22904152B00DCB316 /* 삼총사.swift in Sources */,
+				04EC281029100CE8006886D6 /* 튜플.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
