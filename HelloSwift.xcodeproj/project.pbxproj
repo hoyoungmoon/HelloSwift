@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C4C7FF29116834002BEF3B /* 캐시.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4C7FE29116834002BEF3B /* 캐시.swift */; };
 		04DCFFA72900570A00DCB316 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCFFA62900570A00DCB316 /* main.swift */; };
 		04DCFFAE2901736300DCB316 /* 문자열다루기기본.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCFFAD2901736300DCB316 /* 문자열다루기기본.swift */; };
 		04DCFFB02901847D00DCB316 /* 비밀지도.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCFFAF2901847D00DCB316 /* 비밀지도.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04C4C7FE29116834002BEF3B /* 캐시.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "캐시.swift"; sourceTree = "<group>"; };
 		04DCFFA32900570A00DCB316 /* HelloSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DCFFA62900570A00DCB316 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		04DCFFAD2901736300DCB316 /* 문자열다루기기본.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열다루기기본.swift"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				04EC280B290D5D44006886D6 /* 모의고사.swift */,
 				04EC280D290EADF6006886D6 /* JadenCase문자열만들기.swift */,
 				04EC280F29100CE8006886D6 /* 튜플.swift */,
+				04C4C7FE29116834002BEF3B /* 캐시.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				04EC280429082DF1006886D6 /* 성격유형검사하기.swift in Sources */,
 				04EC28022906DE22006886D6 /* 다트게임.swift in Sources */,
 				04EC280E290EADF6006886D6 /* JadenCase문자열만들기.swift in Sources */,
+				04C4C7FF29116834002BEF3B /* 캐시.swift in Sources */,
 				04EC2808290AE4C6006886D6 /* 신규아이디추천.swift in Sources */,
 				04DCFFA72900570A00DCB316 /* main.swift in Sources */,
 				04DCFFB02901847D00DCB316 /* 비밀지도.swift in Sources */,
