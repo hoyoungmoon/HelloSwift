@@ -42,6 +42,6 @@ class JadenCase문자열만들기 {
                 }
                 return String(c)
             }.joined()
-        }.joined(seperator: " ")
+        }.joined(separator: " ")
     }
 }
