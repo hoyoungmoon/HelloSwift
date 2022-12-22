@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		042E20592950A96900E4DD63 /* 잘라서배열로저장하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E20582950A96900E4DD63 /* 잘라서배열로저장하기.swift */; };
+		042E205B2954BD0600E4DD63 /* 기사단원의무기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E205A2954BD0600E4DD63 /* 기사단원의무기.swift */; };
 		04C4C7FF29116834002BEF3B /* 캐시.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4C7FE29116834002BEF3B /* 캐시.swift */; };
 		04DCFFA72900570A00DCB316 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCFFA62900570A00DCB316 /* main.swift */; };
 		04DCFFAE2901736300DCB316 /* 문자열다루기기본.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCFFAD2901736300DCB316 /* 문자열다루기기본.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		042E20582950A96900E4DD63 /* 잘라서배열로저장하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "잘라서배열로저장하기.swift"; sourceTree = "<group>"; };
+		042E205A2954BD0600E4DD63 /* 기사단원의무기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "기사단원의무기.swift"; sourceTree = "<group>"; };
 		04C4C7FE29116834002BEF3B /* 캐시.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "캐시.swift"; sourceTree = "<group>"; };
 		04DCFFA32900570A00DCB316 /* HelloSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DCFFA62900570A00DCB316 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				04EC280F29100CE8006886D6 /* 튜플.swift */,
 				04C4C7FE29116834002BEF3B /* 캐시.swift */,
 				042E20582950A96900E4DD63 /* 잘라서배열로저장하기.swift */,
+				042E205A2954BD0600E4DD63 /* 기사단원의무기.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				04DCFFAE2901736300DCB316 /* 문자열다루기기본.swift in Sources */,
 				04DCFFB22904152B00DCB316 /* 삼총사.swift in Sources */,
 				04EC281029100CE8006886D6 /* 튜플.swift in Sources */,
+				042E205B2954BD0600E4DD63 /* 기사단원의무기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
