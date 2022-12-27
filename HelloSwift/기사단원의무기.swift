@@ -28,7 +28,6 @@ class 기사단원의무기 {
         for i in 1...number {
             arr.append(getNumber(i));
         }
-        print(arr)
 
         var ans = 0;
         arr.forEach {
